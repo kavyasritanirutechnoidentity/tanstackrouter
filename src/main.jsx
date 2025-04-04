@@ -7,7 +7,6 @@ import { RouterProvider, createRouter } from '@tanstack/react-router'; // Import
 // Create a new router instance
 const router = createRouter({ routeTree });
 
-// Ensure the root element exists before rendering
 const rootElement = document.getElementById('root');
 if (!rootElement) {
   console.error("Root element with ID 'root' not found."); // Log an error instead of throwing

@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       if (!res.ok) {
         throw new Error(`Failed to fetch data: ${res.statusText}`);
       }
-      return await res.json(); // Ensure `await` is used
+      return await res.json(); 
     } catch (error) {
       console.error("Error in loader:", error); // Log the error
       return []; // Return an empty array as a fallback
