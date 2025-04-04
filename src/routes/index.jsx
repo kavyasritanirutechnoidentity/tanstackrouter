@@ -1,27 +1,3 @@
-// // import { createFileRoute } from "@tanstack/react-router";
-// // import App from "../App";
-
-// // // Define route
-// // export const Route = createFileRoute("/")({
-// //   component: App,
-// //   loader: async () => {
-// //     // Prefetch data before page load
-// //     const res = await fetch("https://jsonplaceholder.typicode.com/photos?_limit=10");
-// //     return res.json();
-// //   },
-// // });
-// import { createFileRoute } from "@tanstack/react-router";
-// import App from "../App";
-
-// // Define route
-// export const Route = createFileRoute("/")({
-//   component: App,
-//   loader: async () => {
-//     // Prefetch data before page load
-//     const res = await fetch("https://jsonplaceholder.typicode.com/photos?_limit=10");
-//     return res.json();
-//   },
-// });
 import { createFileRoute } from "@tanstack/react-router";
 import App from "../App";
 
